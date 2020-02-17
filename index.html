@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap trial</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  
+  <style>
+    .navbar{
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color: white;
+      color: black;
+      padding: 1% 0;
+      font-size: 1.2em;
+      border: 0;
+
+    }
+    footer{
+      width: 100%;
+      background-color: #100144;
+      color:white;
+      font-size: 1.2em;
+    }
+    .navbar-brand{
+      float: left;
+      min-height: 55px;
+      padding: 0 15px 5px;
+    }
+
+    .navbar-inverse .navbar-nav .active a,.navbar-inverse .navbar-nav .active a:focus,.navbar-inverse .navbar-nav .active a:hover{
+      color: black;
+      background-color: white;
+
+    }
+    .navbar-inverse .navbar-nav li a{
+      color: black;
+    }
+    .container{
+      margin: 2% auto;
+    }
+
+    #text{
+      font-size: 34px;
+    }
+    #text2{
+      margin: 250px;
+    }
+    #text{
+      margin: 250px;
+    }
+    .p{
+      font-size: 12px;
+    }
+    .h2{
+      font-size: 10px;
+    }
+   #tcard{
+     background-color: orange;
+   }
+   .h1{
+     font-size: 34px;
+   }
+
+
+
+
+
+
+
+   .searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: #181449;
+    border-radius: 30px;
+    padding: 10px;
+    }
+    
+
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 450px;
+    caret-color:red;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: white;
+    color: #e74c3c;
+    }
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+    }
+
+
+
+
+
+
+    
+
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand " href="#"><img src="logo.jpeg" alt=""></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="#">About</a></li>
+          <li class="active"><a href="#">Features</a></li>
+          <li class="active"><a href="#">Support</a></li>
+          <li class="active"><a href="#"> Log In </a></li>
+          <li class="active"><a href="#">Sign Up</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="container">
+          <h1>A Fresh Social</h1>
+          <h1>Networking</h1>
+          <h1>Environment</h1>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <img src="a.png" alt="" class="img-responsive">
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+          <img src="b.png" alt="" class="img-responsive">
+      </div>
+      <div class="container" id="text2">
+          <div class="col-md-6">
+              <h3>Be creative and express your thoughts through photos and videos never missout and discover what's happening with the people you follow.</h3>
+          </div>
+          <div class="row">
+            <img src="appstore.png" alt="" class="img-responsive">
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="container">
+          <h3>Distance is not a problem as long as</h>
+          <h1>you're connected</h1>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="container">
+          <h1>How BestApp Works</h1>
+        </div>
+        <div class="container">
+          <p>Stay tuned as we continuously develop the best social media app for you.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="container " id="text3">
+          <p >Call friends and family as often as you want, for as long as you want.</p><p>Free international voice and video calls make it easy to stay connected.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="container">
+          <a href="#">-> Read more about</a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="d.png" alt="" class="img-responsive">
+      </div>
+      <div class="col-md-6">
+        <div class="container">
+          <h2>Straightforward Social</h2>
+          <h2>Networking Features</h2>
+        </div>
+        <div class="container">
+          <p><i class="material-icons">code</i>Audio and Video calls</p>
+          <p><i class="material-icons">code</i>Add or invite friends from your contact list</p>
+          <p><i class="material-icons">code</i>Audio and Video calls</p>
+          <p><i class="material-icons">code</i>Receive messages from someone you are not yet connected with.</p>
+        </div>
+        <div class="row">
+            <img src="appstore.png" alt="" class="img-responsive">
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="container">
+          <h2>Get more with chat extentions</h2>
+        </div>
+        <div class="container">
+        <div class="container">
+          <p>Search,find and share music,GIF's,videos,restaurents,</p><p>,hotels and more through your faviorite websites </p><p> ever leaving your chats.</p>
+          <p>The information you share is safeguarded by our security </p><p> systems so you never have to think twice about what you</p><p> can or can't share when you're using BestApp.</p>
+        </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <img src="c.png" alt="" class="img-responsive">
+      </div>
+    </div>
+
+  </div>
+  <div class="container text-center">
+    <h2>Want to get news and updates?</h2>
+  </div>
+
+
+
+  <div class="container h-100">
+      <div class="d-flex justify-content-center h-100">
+        <div class="searchbar">
+          <input class="search_input" type="text" name="" placeholder="E-mail address">
+          <a href="#" class="search_icon"><i class="material-icons">keyboard_arrow_right</i></a>
+        </div>
+      </div>
+    </div>
+ <footer class="container-fluid text center">
+   <div class="row">
+     <div class="col-sm-4">
+       <img src="logo2.jpeg" alt="" class="img-responsive" >
+     </div>
+     <div class="col-sm-4">
+       <div class="container text-center">
+
+          <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+
+              <!-- Grid column -->
+              <div class="col-md-2 mb-3">
+                <h6 class="text-uppercase font-weight-bold">
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+
+                  <p>About</p>
+                </h6>
+              </div>
+              <div class="col-md-2 mb-3">
+                  <h6 class="text-uppercase font-weight-bold">
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                    <p>Features</p>
+                  </h6>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                      
+                      <p>Support</p>
+                    </h6>
+                  </div>
+          </div>
+       </div>
+     </div>
+     
+
+   </div>
+
+ </footer>
+
+
+
+</body>
+</html>
